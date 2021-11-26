@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- 모바일 환경에서 연락처 양식과 유사한 
+    숫자 데이터에 링크가 걸리지 않도록 방지하는 meta Tag -->
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Titillium+Web:wght@700&family=Yeon+Sung&display=swap" rel="stylesheet" />
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7a072c209a53972b96bc1e68817720c1&libraries=services"></script>
     <title>Cafe Apps</title>
   </head>
 
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-
     <div id="app"></div>
   </body>
 </html>

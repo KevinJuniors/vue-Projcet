@@ -1,24 +1,6 @@
-# cafe-apps
+## Vue Projcet Cafe-Apps   
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 개발일지   
+2021-11-23 Vue Projcet 개발환경 구축   
+2021-11-25 Header Part 레이아웃 구현   
+2021-11-26 BootStrap 설치   
